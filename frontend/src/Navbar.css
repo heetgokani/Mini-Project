@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
+.navbar {
+  font-family: " Delius Swash Caps ", cursive;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}

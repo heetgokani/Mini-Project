@@ -1,0 +1,45 @@
+.lr-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #d4a574 0%, #a67c52 100%);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.lr-card {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.lr-title.success {
+  font-size: 1.8rem;
+  color: #2d7a2d; /* green for success */
+  margin-bottom: 1rem;
+}
+
+.lr-message {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.lr-btn {
+  background: #a67c52;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.lr-btn:hover {
+  background: #8b6543;
+}
